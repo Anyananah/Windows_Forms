@@ -1,0 +1,11 @@
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\bin\Debug\Projeto_7.exe.config
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\bin\Debug\Projeto_7.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\bin\Debug\Projeto_7.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.csproj.AssemblyReference.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.Form1.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.FormLogin.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.Properties.Resources.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.csproj.GenerateResource.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.csproj.CoreCompileInputs.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_7\obj\Debug\Projeto_7.pdb

@@ -1,0 +1,10 @@
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\bin\Debug\Projeto_5.exe.config
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\bin\Debug\Projeto_5.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\bin\Debug\Projeto_5.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.csproj.AssemblyReference.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.Form1.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.Properties.Resources.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.csproj.GenerateResource.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.csproj.CoreCompileInputs.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_5\obj\Debug\Projeto_5.pdb

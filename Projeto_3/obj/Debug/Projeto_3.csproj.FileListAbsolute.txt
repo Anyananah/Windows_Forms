@@ -1,0 +1,10 @@
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\bin\Debug\Projeto_3.exe.config
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\bin\Debug\Projeto_3.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\bin\Debug\Projeto_3.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.csproj.AssemblyReference.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.Forms_Calculadora.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.Properties.Resources.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.csproj.GenerateResource.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.csproj.CoreCompileInputs.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_3\obj\Debug\Projeto_3.pdb

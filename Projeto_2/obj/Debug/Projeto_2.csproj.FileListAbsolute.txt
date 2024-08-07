@@ -1,0 +1,10 @@
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\bin\Debug\Projeto_2.exe.config
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\bin\Debug\Projeto_2.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\bin\Debug\Projeto_2.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.csproj.AssemblyReference.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.Properties.Resources.resources
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.csproj.GenerateResource.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.csproj.CoreCompileInputs.cache
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.exe
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_2\obj\Debug\Projeto_2.Forms_Saudacao.resources
