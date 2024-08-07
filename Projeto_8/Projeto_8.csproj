@@ -101,12 +101,19 @@
     <Compile Include="br.com.projeto.CONEXAO\Conexao.cs" />
     <Compile Include="br.com.projeto.DAO\ClienteDAO.cs" />
     <Compile Include="br.com.projeto.MODEL\Clientes.cs" />
+    <Compile Include="br.com.projeto.MODEL\Funcionarios.cs" />
     <Compile Include="br.com.projeto.MODEL\Helpers.cs" />
     <Compile Include="br.com.projeto.VIEW\frmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="br.com.projeto.VIEW\frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br.com.projeto.VIEW\frmFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br.com.projeto.VIEW\frmFuncionarios.Designer.cs">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -118,6 +125,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="br.com.projeto.VIEW\frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br.com.projeto.VIEW\frmFuncionarios.resx">
+      <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
