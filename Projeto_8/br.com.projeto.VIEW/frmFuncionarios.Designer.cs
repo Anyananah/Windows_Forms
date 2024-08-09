@@ -616,6 +616,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.tab_funcionarios.ResumeLayout(false);
             this.page_funcionario.ResumeLayout(false);
             this.page_funcionario.PerformLayout();
