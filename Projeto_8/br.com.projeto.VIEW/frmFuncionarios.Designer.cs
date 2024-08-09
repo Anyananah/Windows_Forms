@@ -95,6 +95,7 @@
             this.button5.TabIndex = 39;
             this.button5.Text = "Editar";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -581,6 +582,7 @@
             this.dg_consulta_funcionario.Name = "dg_consulta_funcionario";
             this.dg_consulta_funcionario.Size = new System.Drawing.Size(440, 287);
             this.dg_consulta_funcionario.TabIndex = 0;
+            this.dg_consulta_funcionario.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dg_consulta_funcionario_CellContentDoubleClick);
             // 
             // panel1
             // 

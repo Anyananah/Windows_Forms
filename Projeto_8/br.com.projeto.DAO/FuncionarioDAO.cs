@@ -104,5 +104,85 @@ namespace Projeto_8.br.com.projeto.DAO
         }
 
         #endregion
+
+        #region Alterar
+        public void alterarFuncionario(Funcionarios obj)
+        {
+            try
+            {
+                //PRIMEIRO PASSO - DEFINIR COMANDO SQL
+                string sql = @"UPDATE tb_funcionarios SET nome=@nome, rg=@rg, cpf=@cpf, email=@email, senha=@senha, cargo=@cargo, nivel_acesso=@nivel_acesso, telefone=@telefone, celular=@celular, cep=@cep, endereco=@endereco, numero=@numero, complemento=@complemento, bairro=@bairro, cidade=@cidade, estado=@estado WHERE id=@id";
+
+                //SEGUNDO PASSO - ORGANIZAR O COMANDO SQL
+                MySqlCommand executarcmd = new MySqlCommand(sql, conexao);
+
+                executarcmd.Parameters.AddWithValue("@nome", obj.Nome);
+                executarcmd.Parameters.AddWithValue("@rg", obj.RG);
+                executarcmd.Parameters.AddWithValue("@cpf", obj.CPF);
+                executarcmd.Parameters.AddWithValue("@email", obj.Email);
+
+                executarcmd.Parameters.AddWithValue("@senha", obj.Senha);
+                executarcmd.Parameters.AddWithValue("@cargo", obj.Cargo);
+                executarcmd.Parameters.AddWithValue("@nivel_acesso", obj.Nivel_acesso);
+
+                executarcmd.Parameters.AddWithValue("@telefone", obj.Telefone);
+                executarcmd.Parameters.AddWithValue("@celular", obj.Celular);
+                executarcmd.Parameters.AddWithValue("@cep", obj.CEP);
+                executarcmd.Parameters.AddWithValue("@endereco", obj.Endereco);
+                executarcmd.Parameters.AddWithValue("@numero", obj.Numero);
+
+                executarcmd.Parameters.AddWithValue("@complemento", obj.Complemento);
+                executarcmd.Parameters.AddWithValue("@bairro", obj.Bairro);
+                executarcmd.Parameters.AddWithValue("@cidade", obj.Cidade);
+                executarcmd.Parameters.AddWithValue("@estado", obj.Estado);
+
+                executarcmd.Parameters.AddWithValue("@id", obj.Codigo);
+
+                //TERCEIRO PASSO - ABRIR CONEXÃO E EXECUTAR
+                conexao.Open();
+                executarcmd.ExecuteNonQuery();
+
+                MessageBox.Show("Funcionário alterado com Sucesso!");
+
+                //QUARTO PASSO - FECHAR CONEXÃO
+                conexao.Close();
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Ocorreu um erro!" + erro);
+            }
+        }
+        #endregion
+
+        #region Excluir
+
+        public void excluirFuncionario(Funcionarios obj)
+        {
+            try
+            {
+                //PRIMEIRO PASSO - DEFINIR COMANDO SQL
+                string sql = @"DELETE FROM tb_funcionarios";
+
+                //SEGUNDO PASSO - ORGANIZAR O COMANDO SQL
+                MySqlCommand executarcmd = new MySqlCommand(sql, conexao);
+                executarcmd.Parameters.AddWithValue("@id", obj.Codigo);
+
+                //TERCEIRO PASSO - ABRIR CONEXÃO E EXECUTAR
+                conexao.Open();
+                executarcmd.ExecuteNonQuery();
+
+                MessageBox.Show("Funcionario removido com Sucesso!");
+
+                //QUARTO PASSO - FECHAR CONEXÃO
+                conexao.Close();
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Ocorreu um erro!" + erro);
+            }
+        }
+
+        #endregion
+
     }
 }
