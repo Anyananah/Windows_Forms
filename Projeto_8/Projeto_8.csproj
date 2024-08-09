@@ -100,6 +100,7 @@
   <ItemGroup>
     <Compile Include="br.com.projeto.CONEXAO\Conexao.cs" />
     <Compile Include="br.com.projeto.DAO\ClienteDAO.cs" />
+    <Compile Include="br.com.projeto.DAO\FuncionarioDAO.cs" />
     <Compile Include="br.com.projeto.MODEL\Clientes.cs" />
     <Compile Include="br.com.projeto.MODEL\Funcionarios.cs" />
     <Compile Include="br.com.projeto.MODEL\Helpers.cs" />

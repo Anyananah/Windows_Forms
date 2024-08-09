@@ -41,3 +41,4 @@ C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_8\obj\Debug\Projeto_8.c
 C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_8\obj\Debug\Projeto_8.csproj.CopyComplete
 C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_8\obj\Debug\Projeto_8.exe
 C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_8\obj\Debug\Projeto_8.pdb
+C:\Users\ana.cpmendes\source\repos\Windows_Forms\Projeto_8\obj\Debug\Projeto_8.br.com.projeto.VIEW.frmFuncionarios.resources
