@@ -161,7 +161,7 @@ namespace Projeto_8.br.com.projeto.DAO
             try
             {
                 //PRIMEIRO PASSO - DEFINIR COMANDO SQL
-                string sql = @"DELETE FROM tb_funcionarios";
+                string sql = @"DELETE * FROM tb_funcionarios";
 
                 //SEGUNDO PASSO - ORGANIZAR O COMANDO SQL
                 MySqlCommand executarcmd = new MySqlCommand(sql, conexao);
@@ -179,6 +179,46 @@ namespace Projeto_8.br.com.projeto.DAO
             catch (Exception erro)
             {
                 MessageBox.Show("Ocorreu um erro!" + erro);
+            }
+        }
+
+        #endregion
+
+        #region Efetuar Login
+
+        public bool efetuarLogin(string Email, string Senha)
+        {
+            try
+            {
+                //PRIMEIRO PASSO - DEFINIR COMANDO SQL
+                string sql = @"SELECT * FROM tb_funcionarios WHERE email=@email and senha=@senha";
+
+                //SEGUNDO PASSO - ORGANIZAR O COMANDO SQL
+                MySqlCommand executarcmd = new MySqlCommand(sql, conexao);
+
+                executarcmd.Parameters.AddWithValue("@email", Email);
+                executarcmd.Parameters.AddWithValue("@senha", Senha);
+
+                //TERCEIRO PASSO - ABRIR CONEXÃO E EXECUTAR
+                conexao.Open();
+                MySqlDataReader reader = executarcmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    MessageBox.Show("Bem-Vindo");
+                    return true;
+                }
+                else
+                {
+                    MessageBox.Show("Email ou senha incorreto.");
+                    return false;
+                }
+
+            }
+            catch(Exception erro)
+            {
+                MessageBox.Show("Ocorreu um erro!" + erro);
+                return false;
             }
         }
 
